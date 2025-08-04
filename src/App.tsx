@@ -2,13 +2,13 @@ import React from "react";
 import { Routes, Route } from "react-router-dom";
 import Home from "./pages/Home/Home";
 import Pokemons from "./pages/Pokemons/Pokemons";
-
+import PokemonPage from "./pages/PokemonPage/PokemonPage";
 const App: React.FC = () => {
   return (
     <Routes>
       <Route path="/" element={<Home />} />
       <Route path="/pokemons" element={<Pokemons />} />
-      {/* <Route path="/pokemons/:id" element={<h1>poekon</h1>} /> */}
+      <Route path="/pokemon/:id" element={<PokemonPage />} />
     </Routes>
   );
 };

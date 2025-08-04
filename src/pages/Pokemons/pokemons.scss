@@ -1,0 +1,42 @@
+.pagination-buttons {
+  .custom-toggle-btn {
+    border: 1px solid black;
+    color: black;
+    background-color: white;
+    transition: 0.2s ease;
+
+    &:hover {
+      background-color: black;
+      color: white;
+      border-color: black;
+    }
+
+    &.active {
+      background-color: black;
+      color: white;
+      border-color: black;
+    }
+  }
+}
+
+.custom-pagination {
+  .page-item {
+    .page-link {
+      color: black;
+      border: 1px solid black;
+      background-color: white;
+      transition: 0.2s;
+
+      &:hover {
+        background-color: #f0f0f0;
+        color: black;
+      }
+    }
+
+    &.active .page-link {
+      background-color: black;
+      color: white;
+      border-color: black;
+    }
+  }
+}

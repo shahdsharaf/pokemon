@@ -1,0 +1,48 @@
+.pokemon-image {
+  max-height: 300px;
+  background-color: #e9ecef;
+  border-radius: 150px;
+}
+
+.progress-bar {
+  background-color: black !important;
+}
+
+.height-weight-box {
+  background-color: #e9ecef;
+  padding: 10px;
+  border-radius: 10px;
+  margin-left: 10px;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.ability-name {
+  padding: 4px 8px;
+  border-radius: 50px;
+  display: inline-block;
+  margin-bottom: 10px;
+}
+
+.visible-ability {
+  border: 1px solid black;
+  background-color: transparent;
+}
+
+.hidden-ability {
+  border: none;
+  background-color: #e9ecef;
+}
+
+.base-exp-num {
+  color: #7a00ff;
+  font-size: 30px;
+}
+
+@media (max-width: 600px) {
+  .row > .height-weight-box {
+    flex: 0 0 100%;
+    max-width: 90%;
+    margin-right: 10px;
+  }
+}
